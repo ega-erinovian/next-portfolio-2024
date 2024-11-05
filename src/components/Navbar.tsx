@@ -9,8 +9,8 @@ const Navbar = () => {
   const [isClicked, setIsClicked] = useState(false);
 
   return (
-    <div className="top-0 z-50 bg-black lg:sticky">
-      <div className="container mx-auto flex items-center justify-between px-10 py-6 relative w-full">
+    <div className="top-0 z-50 bg-black sticky backdrop-filter backdrop-blur-lg bg-opacity-40 shadow-xl">
+      <div className="container mx-auto flex items-center justify-between px-10 py-3 relative w-full">
         <h1 className="road-rage-regular delay-50 text-center text-4xl font-bold transition-all ease-out hover:scale-110 md:text-6xl">
           EMP!
         </h1>

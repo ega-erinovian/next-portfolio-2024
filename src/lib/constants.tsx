@@ -85,10 +85,10 @@ export const projects = [
     img: "/project1.png",
   },
   {
-    title: "Bounce",
-    date: "March 2025",
+    title: "Twitter Clone",
+    date: "October 2024",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis natus inventore repellendus, ipsum labore necessitatibus odit dolorem reprehenderit consectetur incidunt voluptatibus minus doloremque molestiae sint!",
-    img: "/project2.png",
+      "Twitter Clone web app that allows users to post, edit, and delete tweets. This project replicates core Twitter functions, providing a smooth, interactive experience for users to share and manage their thoughts in real-time.",
+    img: "/project2.jpg",
   },
 ];
