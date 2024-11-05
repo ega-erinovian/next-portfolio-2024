@@ -2,15 +2,17 @@ import SectionTitle from "../../components/SectionTitle";
 import Link from "next/link";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import WordRotate from "@/components/ui/word-rotate";
+import { montserrat } from "@/utils/font";
 
 const About = () => {
   return (
     <div className="container relative mx-auto mb-56 px-3" id="about">
       <SectionTitle title="Who" />
       <div className="pe-2 ps-6 pt-16 md:mx-auto md:w-10/12 md:pt-44 xl:mx-0 xl:ps-60">
-        <h1 className="montserrat-700 mb-2 text-6xl md:mb-6 md:text-7xl md:flex md:items-center gap-5">
+        <h1
+          className={`${montserrat.className} mb-2 text-6xl md:mb-6 md:text-7xl md:flex md:items-center gap-5`}>
           <WordRotate
-            className="montserrat-700 inline"
+            className={`${montserrat.className} inline`}
             words={["Full-Stack", "Front-End", "Back-End"]}
           />{" "}
           Web Developer

@@ -1,5 +1,6 @@
 import { VelocityScroll } from "@/components/ui/scroll-based-velocity";
 import { socials } from "@/lib/constants";
+import { montserrat } from "@/utils/font";
 import Link from "next/link";
 
 const Contacts = () => {
@@ -11,7 +12,7 @@ const Contacts = () => {
         <VelocityScroll
           text="Get In Touch — "
           default_velocity={1}
-          className="montserrat-700 outlined-letter whitespace-nowrap text-4xl transition-all md:text-7xl xl:text-[154px]"
+          className={`${montserrat.className} whitespace-nowrap text-4xl transition-all md:text-7xl xl:text-[154px]`}
         />
       </div>
       <div className="container mx-auto flex h-[520px] w-full flex-col items-center justify-center gap-20 px-4 md:h-[1000px] xl:gap-24">

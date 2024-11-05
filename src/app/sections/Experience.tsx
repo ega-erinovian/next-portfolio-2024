@@ -1,5 +1,6 @@
 import { experiences } from "@/lib/constants";
 import SectionTitle from "../../components/SectionTitle";
+import { montserrat } from "@/utils/font";
 
 const Experience = () => {
   return (
@@ -10,7 +11,8 @@ const Experience = () => {
       <div className="pe-2 ps-6 pt-16 md:mx-auto md:w-10/12 md:pt-44 xl:mx-0 xl:ps-60">
         {experiences.map((experience, idx) => (
           <div className="mb-20" key={idx}>
-            <h1 className="montserrat-700 mb-2 text-4xl transition-all hover:text-[#aaeec3] md:mb-6 md:text-6xl lg:text-7xl">
+            <h1
+              className={`${montserrat.className} mb-2 text-4xl transition-all hover:text-[#aaeec3] md:mb-6 md:text-6xl lg:text-7xl`}>
               {experience.title}
             </h1>
             <div className="text-[#777777] md:text-xl">

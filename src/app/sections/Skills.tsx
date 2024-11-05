@@ -1,5 +1,6 @@
 import { skills } from "@/lib/constants";
 import SectionTitle from "../../components/SectionTitle";
+import { montserrat } from "@/utils/font";
 
 const Skills = () => {
   return (
@@ -9,7 +10,7 @@ const Skills = () => {
         {skills.map((skill, idx) => (
           <h1
             key={idx}
-            className="montserrat-700 outlined-letter text-5xl transition-all hover:text-[#aaeec3] md:text-7xl xl:text-8xl">
+            className={`${montserrat.className} outlined-letter text-5xl transition-all hover:text-[#aaeec3] md:text-7xl xl:text-8xl`}>
             {skill}
           </h1>
         ))}

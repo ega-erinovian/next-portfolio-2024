@@ -82,13 +82,13 @@ export const projects = [
     date: "September 2023",
     description:
       "Developed a stylish portfolio website for a photography company specializing in weddings and events. The site showcases their work through elegant galleries and an easy-to-navigate design, giving clients a quick, seamless way to explore services and connect with the team.",
-    img: "/project1.png",
+    img: "/project1.webp",
   },
   {
     title: "Twitter Clone",
     date: "October 2024",
     description:
       "Twitter Clone web app that allows users to post, edit, and delete tweets. This project replicates core Twitter functions, providing a smooth, interactive experience for users to share and manage their thoughts in real-time.",
-    img: "/project2.jpg",
+    img: "/project2.webp",
   },
 ];

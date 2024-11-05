@@ -2,6 +2,7 @@ import SectionTitle from "../../components/SectionTitle";
 import Image from "next/image";
 import { projects } from "@/lib/constants";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { montserrat, playfairDisplay } from "@/utils/font";
 
 const Projects = () => {
   return (
@@ -14,11 +15,12 @@ const Projects = () => {
           <div className="container mt-32" key={index}>
             <hr />
             <div className="mt-20 md:mt-24 container">
-              <h1 className="playfair-display-700 mb-6 text-5xl">
+              <h1 className={`${playfairDisplay.className} mb-6 text-5xl`}>
                 {index + 1}/{projects.length}
               </h1>
 
-              <h1 className="montserrat-700 mb-2 text-4xl text-[#aaeec3] transition-all md:mb-6 md:text-7xl overflow-visible">
+              <h1
+                className={`${montserrat.className} mb-2 text-4xl text-[#aaeec3] transition-all md:mb-6 md:text-7xl overflow-visible`}>
                 {project.title}
               </h1>
               <p className="text-md mb-6 text-[#777777] md:text-xl">
