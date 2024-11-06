@@ -17,8 +17,8 @@ const About = () => {
           />{" "}
           Web Developer
         </h1>
-        <div className="text-[#777777] md:text-xl text-">
-          <p className="mb-6 text-[#777777]">
+        <div className="md:text-xl text-">
+          <p className="mb-6 text-[#999999]">
             Hi, I’m Ega – a passionate full-stack web developer with a knack for
             creating smooth, responsive, and dynamic web experiences. Whether
             it's crafting engaging user interfaces on the front end or building
@@ -29,7 +29,7 @@ const About = () => {
             enhance my skill set. Let’s bring your vision to life with clean,
             robust code and creativity!
           </p>
-          <p className="mb-6 text-[#777777]">
+          <p className="mb-6 text-[#999999]">
             Thank you for considering me for your project. I’m excited to bring
             my skills and passion to help you achieve outstanding results. Let’s
             build something amazing together!

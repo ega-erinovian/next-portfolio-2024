@@ -20,11 +20,11 @@ const Navbar = () => {
         <div className="hidden lg:block">
           <ul className="w-full justify-between flex">
             {navbar.map((item, idx) => (
-              <Link href={item.href} key={idx}>
-                <li className="delay-50 rounded-full p-2 px-6 transition-all ease-out hover:bg-[#aaeec3] hover:font-semibold hover:text-black">
-                  {item.title}
-                </li>
-              </Link>
+              <li
+                className="delay-50 rounded-full p-2 px-6 transition-all ease-out hover:bg-[#aaeec3] hover:font-semibold hover:text-black"
+                key={idx}>
+                <Link href={item.href}>{item.title}</Link>
+              </li>
             ))}
           </ul>
         </div>

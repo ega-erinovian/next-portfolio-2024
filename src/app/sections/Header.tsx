@@ -17,7 +17,7 @@ const Header = () => {
             <WordFadeIn
               words="Crafting seamless, responsive web solutions from front to back."
               delay={0.35}
-              className="text-[#777777] font-light text-sm md:text-xl"
+              className="text-[#999999] text-sm md:text-xl"
             />
           </div>
         </div>

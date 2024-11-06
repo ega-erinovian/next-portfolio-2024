@@ -15,8 +15,8 @@ const Experience = () => {
               className={`${montserrat.className} mb-2 text-4xl transition-all hover:text-[#aaeec3] md:mb-6 md:text-6xl lg:text-7xl`}>
               {experience.title}
             </h1>
-            <div className="text-[#777777] md:text-xl">
-              <p className="mb-6 text-[#777777]">{experience.description}</p>
+            <div className="text-[#999999] md:text-xl">
+              <p className="mb-6 text-[#999999]">{experience.description}</p>
               <p className="mb-6">
                 <span className="font-bold text-[#aaeec3]">
                   {experience.place}

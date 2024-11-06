@@ -23,7 +23,7 @@ const Projects = () => {
                 className={`${montserrat.className} mb-2 text-4xl text-[#aaeec3] transition-all md:mb-6 md:text-7xl overflow-visible`}>
                 {project.title}
               </h1>
-              <p className="text-md mb-6 text-[#777777] md:text-xl">
+              <p className="text-md mb-6 text-[#999999] md:text-xl">
                 {project.date}
               </p>
               <p className="text-md mb-10 md:text-xl">{project.description}</p>
@@ -33,6 +33,7 @@ const Projects = () => {
                   src={project.img}
                   alt="project1"
                   fill
+                  loading="lazy"
                 />
               </div>
             </div>
