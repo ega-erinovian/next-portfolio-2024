@@ -1,6 +1,6 @@
 import SectionTitle from "../../components/SectionTitle";
 import Image from "next/image";
-import { projects } from "@/lib/constants";
+import { projects } from "@/features/sections/constants";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { montserrat, playfairDisplay } from "@/utils/font";
 

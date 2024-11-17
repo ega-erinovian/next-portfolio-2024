@@ -1,4 +1,4 @@
-import { skills } from "@/lib/constants";
+import { skills } from "@/features/sections/constants";
 import SectionTitle from "../../components/SectionTitle";
 import { montserrat } from "@/utils/font";
 

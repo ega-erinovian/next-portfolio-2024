@@ -91,4 +91,11 @@ export const projects = [
       "Twitter Clone web app that allows users to post, edit, and delete tweets. This project replicates core Twitter functions, providing a smooth, interactive experience for users to share and manage their thoughts in real-time.",
     img: "/project2.webp",
   },
+  {
+    title: "Archi Teknik Company Profile",
+    date: "November 2024",
+    description:
+      "Designed and developed a professional company profile website for an international engineering consultancy, showcasing their services, values, and global presence. Built using Next.js and Tailwind CSS for a modern, responsive, and visually engaging experience.",
+    img: "/project3.webp",
+  },
 ];

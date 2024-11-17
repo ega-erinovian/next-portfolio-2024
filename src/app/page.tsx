@@ -1,11 +1,11 @@
+import Header from "@/features/sections/Header";
 import "./App.css";
-import Header from "./sections/Header";
-import About from "./sections/About";
-import Skills from "./sections/Skills";
-import Experience from "./sections/Experience";
-import Projects from "./sections/Projects";
-import Contacts from "./sections/Contacts";
-import Footer from "./sections/Footer";
+import About from "@/features/sections/About";
+import Skills from "@/features/sections/Skills";
+import Experience from "@/features/sections/Experience";
+import Projects from "@/features/sections/Projects";
+import Contacts from "@/features/sections/Contacts";
+import Footer from "@/features/sections/Footer";
 
 export default function Home() {
   return (

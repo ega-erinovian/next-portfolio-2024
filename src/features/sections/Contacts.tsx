@@ -1,5 +1,5 @@
 import { VelocityScroll } from "@/components/ui/scroll-based-velocity";
-import { socials } from "@/lib/constants";
+import { socials } from "@/features/sections/constants";
 import { montserrat } from "@/utils/font";
 import Link from "next/link";
 

@@ -1,4 +1,4 @@
-import { experiences } from "@/lib/constants";
+import { experiences } from "@/features/sections/constants";
 import SectionTitle from "../../components/SectionTitle";
 import { montserrat } from "@/utils/font";
 

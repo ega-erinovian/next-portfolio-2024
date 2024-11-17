@@ -1,6 +1,6 @@
 "use client";
 
-import { navbar } from "@/lib/constants";
+import { navbar } from "@/features/sections/constants";
 import { roadRage } from "@/utils/font";
 import Link from "next/link";
 import { useState } from "react";

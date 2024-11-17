@@ -6,18 +6,18 @@ import { montserrat } from "@/utils/font";
 
 const About = () => {
   return (
-    <div className="container relative mx-auto mb-56 px-3" id="about">
+    <div className="container relative mx-auto my-56 px-3" id="about">
       <SectionTitle title="Who" />
       <div className="pe-2 ps-6 pt-16 md:mx-auto md:w-10/12 md:pt-44 xl:mx-0 xl:ps-60">
         <h1
-          className={`${montserrat.className} mb-2 text-6xl md:mb-6 md:text-7xl md:flex md:items-center gap-5`}>
+          className={`${montserrat.className} mb-2 text-5xl md:mb-6 md:text-7xl md:flex xl:items-center md:flex-col xl:flex-row gap-5 text-nowrap`}>
           <WordRotate
-            className={`${montserrat.className} inline`}
+            className={`${montserrat.className} inline text-nowrap`}
             words={["Full-Stack", "Front-End", "Back-End"]}
           />{" "}
           Web Developer
         </h1>
-        <div className="md:text-xl text-">
+        <div className="md:text-xl">
           <p className="mb-6 text-[#999999]">
             Hi, I’m Ega – a passionate full-stack web developer with a knack for
             creating smooth, responsive, and dynamic web experiences. Whether
