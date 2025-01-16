@@ -14,9 +14,9 @@ const ExperienceComponent = () => {
 
   return (
     <div
-      className="container relative mx-auto overflow-hidden px-3 h-screen flex justify-center items-center"
+      className="container relative mx-auto px-3 h-screen flex justify-center items-center overflow-x-hidden xl:overflow-visible"
       id="experiences">
-      <div className="relative">
+      <div className="relative ">
         <SectionTitle title="Experiences" />
         <div className="pe-2 ps-6 pt-16 md:mx-auto md:w-10/12 md:pt-44 xl:mx-0 xl:ps-60">
           {experiences &&

@@ -2,22 +2,23 @@ body {
   background-color: #080808;
 }
 
-/* Outline Word */
-.outlined-letter {
-  color: #080808;
-  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
-    1px 1px 0 #fff;
+.text-transparent {
+  color: transparent;
 }
 
-.outlined-letter-contact {
-  color: #080808;
-  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
-    1px 1px 0 #fff;
+.stroke-2 {
+  -webkit-text-stroke-width: 2px;
+  text-stroke-width: 2px;
 }
 
-.outlined-letter:hover {
-  text-shadow: -1px -1px 0 #aaeec3, 1px -1px 0 #aaeec3, -1px 1px 0 #aaeec3,
-    1px 1px 0 #aaeec3;
+.stroke-gray-700 {
+  -webkit-text-stroke-color: #474e5a;
+  text-stroke-color: #474e5a;
+}
+
+.hover\:no-stroke:hover {
+  -webkit-text-stroke-width: 0;
+  text-stroke-width: 0;
 }
 
 /* Scroll Animation */
