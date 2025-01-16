@@ -1,13 +1,12 @@
-import Navbar from "../../components/Navbar";
 import { RiScrollToBottomLine } from "react-icons/ri";
 import WordFadeIn from "@/components/ui/word-fade-in";
 import { playfairDisplay } from "@/utils/font";
+import Navbar from "@/components/Navbar";
 
 const Header = () => {
   return (
     <>
-      <Navbar />
-      <div className="container mx-auto mb-56">
+      <div className="container mx-auto h-[calc(100vh-68px)]">
         <div className="text-container flex h-[80vh] flex-col justify-center px-4 text-center">
           <h1
             className={`text-6xl font-bold md:text-9xl ${playfairDisplay.className} mb-3 md:mb-7`}>

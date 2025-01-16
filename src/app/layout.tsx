@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { poppins } from "@/utils/font";
-
-// TODO: Add metadata ✅, opengraph image✅
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Ega Erinovian | Web Development from front to back",
@@ -36,9 +36,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className}`}>{children}</body>
+      <body className={`${poppins.className}`}>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
-
-// className={`${geistSans.variable} ${geistMono.variable} antialiased`}
