@@ -1,18 +1,18 @@
 import { VelocityScroll } from "@/components/ui/scroll-based-velocity";
-import { socials } from "@/features/sections/constants";
 import { montserrat } from "@/utils/font";
 import Link from "next/link";
+import { socials } from "../constants";
 
-const Contacts = () => {
+const ContactComponent = () => {
   return (
-    <>
+    <div className="h-full pt-32">
       <div
         className="relative h-[116px] w-full overflow-hidden md:h-[144px] xl:h-[300px]"
         id="contact">
         <VelocityScroll
           text="Get In Touch — "
           default_velocity={1}
-          className={`${montserrat.className} whitespace-nowrap text-4xl transition-all md:text-7xl xl:text-[154px]`}
+          className={`${montserrat.className} whitespace-nowrap text-4xl transition-all md:text-7xl xl:text-[154px] `}
         />
       </div>
       <div className="container mx-auto flex h-[520px] w-full flex-col items-center justify-center gap-20 px-4 md:h-[1000px] xl:gap-24">
@@ -29,8 +29,8 @@ const Contacts = () => {
           ))}
         </ul>
       </div>
-    </>
+    </div>
   );
 };
 
-export default Contacts;
+export default ContactComponent;

@@ -4,13 +4,13 @@ body {
 
 /* Outline Word */
 .outlined-letter {
-  color: #000;
+  color: #080808;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
     1px 1px 0 #fff;
 }
 
 .outlined-letter-contact {
-  color: #000;
+  color: #080808;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
     1px 1px 0 #fff;
 }

@@ -33,25 +33,6 @@ export const skills = [
   "Express.JS",
 ];
 
-export const navbar = [
-  {
-    title: "About",
-    href: "#about",
-  },
-  {
-    title: "Experiences",
-    href: "#experiences",
-  },
-  {
-    title: "Projects",
-    href: "#projects",
-  },
-  {
-    title: "Contact",
-    href: "#contact",
-  },
-];
-
 export const experiences = [
   {
     title: "Full-Stack Web Developer",
