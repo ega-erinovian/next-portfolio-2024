@@ -6,6 +6,8 @@ import Image from "next/image";
 import SectionTitle from "../../components/SectionTitle";
 import useFormatDate from "@/hooks/formatter/useDateFormatter";
 import ProjectSkeleton from "@/components/skeleton/ProjectSkeleton";
+import { ExternalLink } from "lucide-react";
+import Link from "next/link";
 
 const ProjectsComponent = () => {
   const { projects } = useGetProjects();
@@ -28,11 +30,15 @@ const ProjectsComponent = () => {
                 <h1 className={`${playfairDisplay.className} mb-6 text-5xl`}>
                   {index + 1}/{projects.length}
                 </h1>
-
-                <h1
-                  className={`${montserrat.className} mb-2 text-4xl text-[#aaeec3] transition-all md:mb-6 md:text-7xl overflow-visible`}>
-                  {project.title}
-                </h1>
+                <div className="flex items-baseline gap-4">
+                  <Link href={`/projects/${project.id}`} className="w-fit">
+                    <h1
+                      className={`${montserrat.className} mb-2 text-4xl text-[#aaeec3] transition-all md:mb-6 md:text-7xl overflow-visible`}>
+                      {project.title}
+                    </h1>
+                  </Link>
+                  <ExternalLink color="#474e5a" />
+                </div>
                 <p className="text-md mb-6 text-[#999999] md:text-xl">
                   {useFormatDate(project.date)}
                 </p>
