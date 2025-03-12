@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className="top-0 z-50 bg-black sticky backdrop-filter backdrop-blur-lg bg-opacity-40 shadow-xl">
-      <div className="container mx-auto flex items-center justify-between px-10 py-3 relative w-full">
+      <div className="container mx-auto flex items-center justify-between px-8 py-3 relative w-full">
         <Link href="/" onClick={() => setIsClicked(false)}>
           <h1
             className={`${roadRage.className} delay-50 text-center text-4xl font-bold transition-all ease-out hover:scale-110 md:text-6xl`}>

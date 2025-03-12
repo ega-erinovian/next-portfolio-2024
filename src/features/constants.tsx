@@ -23,14 +23,15 @@ export const socials = [
 ];
 
 export const skills = [
-  "HTML5",
-  "CSS3",
   "Javascript",
   "Typescript",
   "Tailwind",
   "React",
+  "Node.JS",
   "Next.JS",
+  "PostgreSQL",
   "Express.JS",
+  "Docker",
 ];
 
 export const experiences = [

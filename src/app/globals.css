@@ -77,8 +77,8 @@ body {
 }
 
 .stroke-gray-700 {
-  -webkit-text-stroke-color: #474e5a;
-  text-stroke-color: #474e5a;
+  -webkit-text-stroke-color: #2f2f2f;
+  text-stroke-color: #2f2f2f;
 }
 
 .hover\:no-stroke:hover {
@@ -87,7 +87,7 @@ body {
 }
 
 /* Scroll Animation */
-.scroll-icon {
+/* .scroll-icon {
   -webkit-animation: action 1s infinite alternate;
   animation: action 1s infinite alternate;
 }
@@ -108,7 +108,7 @@ body {
   100% {
     transform: translateY(-20px);
   }
-}
+} */
 
 @layer base {
   * {

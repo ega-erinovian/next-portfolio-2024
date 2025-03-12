@@ -1,4 +1,3 @@
-import AboutComponent from "../about";
 import ContactComponent from "../contact";
 import ExperienceComponent from "../expriences";
 import ProjectsComponent from "../projects";
@@ -9,7 +8,6 @@ const HomeComponent = () => {
   return (
     <>
       <Header />
-      <AboutComponent />
       <SkillsCompoenent />
       <ExperienceComponent />
       <ProjectsComponent />
