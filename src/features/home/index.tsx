@@ -6,13 +6,13 @@ import Header from "./components/Header";
 
 const HomeComponent = () => {
   return (
-    <>
+    <div className="container mx-auto">
       <Header />
       <SkillsCompoenent />
       <ExperienceComponent />
       <ProjectsComponent />
       <ContactComponent />
-    </>
+    </div>
   );
 };
 

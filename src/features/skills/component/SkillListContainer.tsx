@@ -12,7 +12,7 @@ const SkillListContainer = () => {
         <DecryptedText
           key={idx}
           text={skill}
-          speed={100}
+          speed={75}
           encryptedClassName={textClassName}
           parentClassName={`${textClassName} hover:underline`}
           sequential={true}

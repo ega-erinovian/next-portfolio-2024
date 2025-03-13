@@ -1,3 +1,4 @@
+import SectionDescription from "@/components/SectionDescription";
 import { FC } from "react";
 
 interface TechstackDescProps {
@@ -7,14 +8,13 @@ interface TechstackDescProps {
 const TechstackDesc: FC<TechstackDescProps> = ({ className }) => {
   return (
     <div
-      className={`h-full flex md:items-end md:justify-end lg:col-span-2 ${className}`}>
+      className={`h-full flex md:items-end xl:justify-end lg:col-span-2 ${className}`}>
       <div className="md:w-1/2 xl:w-full">
-        <p className="text-xl">TechStack</p>
-        <p className="text-xs font-light text-[#999999] text-justify">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iusto
-          iure sapiente, et blanditiis aliquam exercitationem quis laboriosam
-          repellendus autem doloribus sed at. Fuga, possimus.
-        </p>
+        <SectionDescription
+          title="Techstack"
+          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iusto
+        iure sapiente, et blanditiis aliquam"
+        />
       </div>
     </div>
   );

@@ -3,10 +3,10 @@ import TechstackDesc from "./component/TechstackDesc";
 
 const SkillsCompoenent = () => {
   return (
-    <div className="container relative mx-auto px-8 xl:h-[70vh] py-10 xl:py-48 grid xl:grid-cols-12 gap-8">
-      <TechstackDesc className="md:hidden" />
+    <div className="px-8 xl:h-[70vh] py-10 lg:py-16 xl:py-52 grid xl:grid-cols-12 gap-8">
+      <TechstackDesc className="xl:hidden" />
       <SkillListContainer />
-      <TechstackDesc className="hidden md:flex" />
+      <TechstackDesc className="hidden xl:flex" />
     </div>
   );
 };

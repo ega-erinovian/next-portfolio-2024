@@ -4,7 +4,7 @@ import HeaderTitle from "./HeaderTitle";
 const Header = () => {
   return (
     <>
-      <div className="container mx-auto xl:h-[calc(100vh-68px)]">
+      <div className="xl:h-[calc(100vh-68px)]">
         <div className="text-container flex xl:h-screen flex-col py-10 px-8 justify-center gap-8 xl:gap-28">
           <HeaderTitle />
           <div className="flex justify-between flex-col md:flex-row gap-4">

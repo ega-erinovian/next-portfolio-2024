@@ -4,21 +4,18 @@ import DecryptedText from "@/components/blocks/TextAnimations/DecryptedText/Decr
 
 const HeaderTitle = () => {
   const textClassName =
-    "text-[58px] md:text-[120px] font-medium xl:text-[284px] leading-none -tracking-[2px] md:-tracking-[4px] xl:-tracking-[20px] mb-3 md:mb-7";
+    "text-[58px] md:text-[120px] lg:text-[164px] font-medium xl:text-[276px] leading-none -tracking-[2px] md:-tracking-[4px] xl:-tracking-[20px] mb-3 md:mb-8 lg:mb-16";
 
   return (
     <DecryptedText
       text="Websites & Web Apps"
       parentClassName={textClassName}
       encryptedClassName={textClassName}
-      speed={100}
+      speed={75}
       sequential={true}
       animateOn="view"
       useOriginalCharsOnly={true}
     />
-    // <h1 className="text-[58px] md:text-[120px] font-medium xl:text-[284px] leading-none -tracking-[2px] md:-tracking-[4px] xl:-tracking-[20px] mb-3 md:mb-7">
-    //   Websites & Web Apps
-    // </h1>
   );
 };
 
