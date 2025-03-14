@@ -7,9 +7,10 @@ export interface Project {
   id: string;
   title: string;
   date: string;
-  description: string;
+  category: string;
   thumbnail: string;
-  content: string;
+  content?: string;
+  url?: string;
 }
 
 const useGetProjects = () => {
@@ -25,10 +26,11 @@ const useGetProjects = () => {
         return {
           id: project.sys.id,
           title: project.fields.title,
+          category: project.fields.category,
           date: project.fields.date,
-          description: project.fields.description,
           thumbnail: "https:" + project.fields.thumbnail?.fields.file.url,
           content: project.fields.content,
+          url: project.fields.url,
         };
       });
 

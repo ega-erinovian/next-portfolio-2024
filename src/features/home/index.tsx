@@ -1,4 +1,3 @@
-import AboutComponent from "../about";
 import ContactComponent from "../contact";
 import ExperienceComponent from "../expriences";
 import ProjectsComponent from "../projects";
@@ -8,11 +7,12 @@ import Header from "./components/Header";
 const HomeComponent = () => {
   return (
     <>
-      <Header />
-      <AboutComponent />
-      <SkillsCompoenent />
-      <ExperienceComponent />
-      <ProjectsComponent />
+      <div className="container mx-auto">
+        <Header />
+        <SkillsCompoenent />
+        <ExperienceComponent />
+        <ProjectsComponent />
+      </div>
       <ContactComponent />
     </>
   );
