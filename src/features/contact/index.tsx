@@ -12,17 +12,14 @@ const ContactComponent = () => {
         <VelocityScroll
           text="Get In Touch — "
           default_velocity={1}
-          className={`${montserrat.className} whitespace-nowrap text-4xl transition-all md:text-7xl xl:text-[154px] `}
+          className={`${montserrat.className} whitespace-nowrap text-4xl transition-all md:text-7xl xl:text-[154px]`}
         />
       </div>
-      <div className="container mx-auto flex h-[520px] w-full flex-col items-center justify-center gap-20 px-4 md:h-[1000px] xl:gap-24">
-        <h1 className="playfair-display-700 text-center text-6xl font-bold md:text-7xl lg:text-8xl">
-          Interested to work with me?
-        </h1>
-        <ul className="flex w-full md:w-1/2 justify-around xl:w-1/3">
+      <div className="container mx-auto flex w-full flex-col items-center justify-center py-8 md:py-24 xl:py-48">
+        <ul className="flex w-10/12 justify-around xl:w-7/12">
           {socials.map((social, idx) => (
             <Link href={social.link} key={idx} target="_blank">
-              <li className="rounded-full bg-white p-2 text-3xl transition-all hover:bg-[#aaeec3]">
+              <li className="rounded-full bg-white p-2 text-3xl md:text-5xl md:p-4 transition-all hover:bg-[#aaeec3] duration-300">
                 {social.component}
               </li>
             </Link>
