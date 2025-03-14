@@ -11,10 +11,8 @@ const SectionDescription: FC<SectionDescriptionProps> = ({
 }) => {
   return (
     <>
-      <p className="text-xl">{title}</p>
-      <p className="text-sm font-light text-[#999999] text-justify">
-        {description}
-      </p>
+      <p className="text-4xl mb-3">{title}</p>
+      <p className="text-sm font-light text-[#999999]">{description}</p>
     </>
   );
 };

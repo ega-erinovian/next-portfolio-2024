@@ -12,8 +12,7 @@ const TechstackDesc: FC<TechstackDescProps> = ({ className }) => {
       <div className="md:w-1/2 xl:w-full">
         <SectionDescription
           title="Techstack"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iusto
-        iure sapiente, et blanditiis aliquam"
+          description="I use these tools to build efficient, scalable web applications with seamless integration and optimal performance."
         />
       </div>
     </div>

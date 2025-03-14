@@ -7,7 +7,7 @@ export interface Project {
   id: string;
   title: string;
   date: string;
-  description: string;
+  category: string;
   thumbnail: string;
   content: any;
 }
@@ -23,7 +23,7 @@ const useGetProject = (entryId: string) => {
         id: response.sys.id,
         title: response.fields.title,
         date: response.fields.date,
-        description: response.fields.description,
+        category: response.fields.category,
         thumbnail: "https:" + response.fields.thumbnail?.fields.file.url,
         content: response.fields.content,
       };
